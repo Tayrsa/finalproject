@@ -25,10 +25,6 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-
-#pic1 {
-  opacity: 0.5;
-}
   .parallax-container .section {
     width: 100%;
   }
