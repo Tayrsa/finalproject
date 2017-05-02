@@ -4,19 +4,13 @@ html, body {
 }
 p {text-align: left;}
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image:url("../media/background.png");
-    text-align: left;
-    font-family: Georgia, Times New Roman, Times, serif;
-    font-size: 13px;
-    color: #F1F5F8;
-}
+
 *
 {
     margin: 0 auto 0 auto;
-    text-align:left;}
+    text-align:left;
+
+}
 
 
 html, body {
@@ -24,14 +18,9 @@ html, body {
 }
 p {text-align: left;}
 
-.dotted_line
-{
-    background-image:url(../media/dotted_line.png);
-    background-repeat:no-repeat;
-    clear:both;
-    width:916px;
-    height:5px;
-}
+
+
+
 
 
 
@@ -82,7 +71,10 @@ p {text-align: left;}
     color:#C9E1FA;
 }
 
-
+.image {
+    height: 500px;
+    width: 400px;
+}
 
 #main
 {
@@ -94,11 +86,23 @@ p {text-align: left;}
 
 #main .main_left
 {
-    width:458px;
-    background-image:url(main_top.png);
     background-repeat:no-repeat;
     text-align:center;
     float:left;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+#main .main_left p
+{
+    text-align: center;
+    color: dimgrey;
+}
+
+#main .main_left h2
+{
+text-align: center;
+
 }
 
 #main .main_left h1
@@ -108,6 +112,7 @@ p {text-align: left;}
     color:#FFFFFF;
     font-size:28px;
 }
+
 
 #main .main_left h3
 {
@@ -124,27 +129,34 @@ p {text-align: left;}
     padding-left:0px;
     height:auto;
     width:458px;
-    background-image:url(main_body.png);
     background-repeat:repeat-y;
-    color:#FFFFFF;
+    color: dimgrey;
     padding-bottom:20px;
     float:left;
+    font-size:16px;
+    font-family: spumante, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
 }
 
 #main .main_right h2
 {
-    font:Verdana, Arial, Helvetica, sans-serif;
-    font-size:24px;
-    padding-bottom:15px;
+
+    font-size:28px;
+
+
 }
 
 #main .main_right p
 {
-    line-height:20px;
+    line-height:30px;
+    mso-border-top-style-alt: dotted;
+
+
+
 }
-
-
-
 
 
 
@@ -157,11 +169,8 @@ p {text-align: left;}
     position: relative;
     overflow: hidden;
     width: 921px;
+
 }
-
-
-
-
 
 #footer {
     display:block;
@@ -185,5 +194,11 @@ p {text-align: left;}
 #footer a:hover{
     text-decoration:none;
     color:#C9E1FA;
+}
+
+.left {
+    background-color: peachpuff;
+    width: 20%;
+    height: 100%;
 }
 
