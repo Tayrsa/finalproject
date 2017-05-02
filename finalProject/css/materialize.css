@@ -2311,6 +2311,7 @@ img {
   border: 0;
 }
 
+
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
@@ -2769,6 +2770,22 @@ video.responsive-video {
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+
+}
+
+#quote_photo {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 100;
+
 }
 
 .pin-top, .pin-bottom {
@@ -3339,6 +3356,9 @@ nav ul a span.badge {
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
+}
+.container #aboutMe {
+  background-color: peachpuff;
 }
 
 .container {
@@ -4248,6 +4268,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
 }
+
 
 nav .brand-logo.center {
   left: 50%;
@@ -8409,6 +8430,10 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center;
   position: relative;
   margin-top: .75em;
+}
+
+.pictureText {
+  color: darkslategrey;
 }
 
 /**
