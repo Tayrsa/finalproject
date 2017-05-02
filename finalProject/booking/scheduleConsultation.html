@@ -3,13 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <title>Services Page</title>
+    <title>Schedule Consultation </title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../css/booking.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
     <!-- load stylesheets -->
 
 
@@ -31,7 +32,7 @@
             <li class="booking_dropdown">
                 <a href="javascript:void(0)" class="booking_dropbtn">Booking</a>
                 <div class="booking_dropdown-content">
-                    <a  href=booking/services.html>Services</a>
+                    <a href=services.html>Services</a>
                     <a href="#">Pre-Consultation Form</a>
                     <a href=preparation.html>What to Expect</a>
                 </div>
@@ -45,7 +46,7 @@
             <li class="booking_dropdown">
                 <a href="javascript:void(0)" class="booking_dropbtn">Booking</a>
                 <div class="booking_dropdown-content">
-                    <a href=booking/services.html>Services</a>
+                    <a href=services.html>Services</a>
                     <a href=s"#">Pre-Consultation Form</a>
                     <a href=preparation.html>What to Expect</a>
                 </div>
@@ -77,9 +78,9 @@
 
                         <img src="http://blessedforsuccess.org/wp-content/uploads/2016/05/Book.png">
                         <ul class="right hide-on-med-and-down">
-                            <li><a href=../booking/services.html>Services</a></li>
-                            <li><a class="highlightedSection"href="#">Pre-Consultation Form</a></li>
-                            <li><a href=../booking/preparation.html>What to Expect</a></li>
+                            <li><a href= services.html>Services</a></li>
+                            <li><a class="highlightedSection" href="#">Pre-Consultation Form</a></li>
+                            <li><a href="preparation.html">What to Expect</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -91,31 +92,120 @@
 
 <!-- cards -->
 
-<div>
-<section class="eventsOffered_services"><u>Services We Offer</u></section>
-<br><br>
+<form class="form" action="/action_page.php">
+    <h2>Pre-Consultation Form</h2>
+    First name:<br>
+    <input type="box" name="firstname" value="">
+    <br>
+    First name:<br>
+    <input type="box" name="lastname" value="">
+    <br>
+    Email:<br>
+    <input type="box" name="Email" value="">
+    <br>
+    Phone:<br>
+    <input type="box" name="State" value="">
+    <br>
+    Addr1:<br>
+    <input type="box" name="addr1" value="">
+    <br>
+    Addr2:<br>
+    <input type="box" name="addr2" value="">
+    <br>
+    City:<br>
+    <input type="box" name="City" value="">
+    <br>
+    State:<br>
+    <input type="box" name="state" value="">
+    <br>
+    Zip Code:<br>
+    <input type="box" name="zip" value="">
+    <br><br>
+    Event Type:<br><br>
+    <input type="radio" name="type" value="Wedding" > Wedding<br>
+    <input type="radio" name="type" value="Social Event"> Social Event<br>
+    <input type="radio" name="type" value="Corporate Event"> Corporate Event<br>
+    <input type="radio" name="type" value="Baby Shower"> Baby Shower<br>
+    <input type="radio" name="type" value="Birthday Party"> Birthday Party<br>
+    <input type="radio" name="type" value="Festival/Carnival"> Festival/Carnival<br>
+    <input type="radio" name="type" value="other"> Other
+    <br><br>
 
-    <p class="servicesSummary">Minor Details is a full service event planning company that is determined to provide you with the highest quality of event services. Whether you need vendor referrals, a day of event coordinator, or a full service planner, we will work with you to produce high impact, modern, and innovative events.
-        <br><img align="center" width="175" height="175" src="http://walliv.com/media/catalog/product/cache/1/color_selector1/280x248/9df78eab33525d08d6e5fb8d27136e95/w/s/ws-15393.png"><br>
-        At Minor Details, we will learn and listen to what you want and work diligently to pull together all of the details. After all, it is the details of every event that make it memorable.
-        <br><img align="center" width="175" height="175" src="http://walliv.com/media/catalog/product/cache/1/color_selector1/280x248/9df78eab33525d08d6e5fb8d27136e95/w/s/ws-15393.png"><br>
-        Working with one of our experienced event planners will ensure that you have all the basics covered for your event. Plus, your planner will make sure that your event vision will be executed just as you want it.
-        <br><img align="center" width="175" height="175" src="http://walliv.com/media/catalog/product/cache/1/color_selector1/280x248/9df78eab33525d08d6e5fb8d27136e95/w/s/ws-15393.png"><br>
-        We work closely with you to ensure a one of a kind experience for you and your guests. We are determined to create an occasion that represents your personality and style. </p>
+    Desired Event Date:<br><br>
+    Day
+    <select name='day' id='dayddl'>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+        <option value='6'>6</option>
+        <option value='7'>7</option>
+        <option value='8'>8</option>
+        <option value='9'>9</option>
+        <option value='10'>10</option>
+        <option value='11'>11</option>
+        <option value='12'>12</option>
+        <option value='13'>13</option>
+        <option value='14'>14</option>
+        <option value='15'>15</option>
+        <option value='16'>16</option>
+        <option value='17'>17</option>
+        <option value='18'>18</option>
+        <option value='19'>19</option>
+        <option value='20'>20</option>
+        <option value='21'>21</option>
+        <option value='22'>22</option>
+        <option value='23'>23</option>
+        <option value='24'>24</option>
+        <option value='25'>25</option>
+        <option value='26'>26</option>
+        <option value='27'>27</option>
+        <option value='28'>28</option>
+        <option value='29'>29</option>
+        <option value='30'>30</option>
+        <option value='31'>31</option>
+    </select>
+    Month
+    <select name='month' id='monthddl'>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+        <option value='6'>6</option>
+        <option value='7'>7</option>
+        <option value='8'>8</option>
+        <option value='9'>9</option>
+        <option value='10'>10</option>
+        <option value='11'>11</option>
+        <option value='12'>12</option>
+    </select>
+    Year
+    <select name='day' id='blah'>
+        <option value='2017'>2017</option>
+        <option value='2018'>2018</option>
+        <option value='2019'>2019</option>
+        <option value='2020'>2020</option>
+        <option value='2021'>2021</option>
+    </select>
+    <br><br>
+
+    Upload Photos/Helpful Materials:<br>
+        <input type="file" name="pic" accept="image/*"><br><br>
+        <input type="submit">
+<br>
+<br>
 
 
+    <input type="submit" value="BOOK NOW">
+</form>
 
-
-</div>
 <!-- cards end -->
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>c
 <script src="../js/materialize.js"></script>
 <script src="../js/init.js"></script>
-<script src="../js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
-<script src="../https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
-<script src="../js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-<script src="../js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-<script src="../js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
 
 </body>
+</html>
